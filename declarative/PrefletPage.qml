@@ -28,7 +28,6 @@ import QtQuick 2.0
 import QtQuick.Controls 2.0
 
 Page {
-    property string title
     property list<Item> leftActions
     property list<Item> rightActions
 }

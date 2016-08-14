@@ -32,7 +32,7 @@ Button {
     property alias color: dialog.color
 
     id: button
-    label: Rectangle {
+    contentItem: Rectangle {
         anchors {
             fill: parent
             leftMargin: button.leftPadding

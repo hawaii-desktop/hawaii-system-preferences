@@ -35,7 +35,7 @@ GroupBox {
     readonly property int itemSize: 96
     property alias model: repeater.model
 
-    frame: Item {}
+    background: Item {}
     label: Row {
         spacing: FluidUi.Units.smallSpacing
 
